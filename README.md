@@ -2,7 +2,7 @@
 
 Este repositorio contiene la entrega completa del trabajo práctico de arquitectura de software, incluyendo todos los ejercicios resueltos con diagramas renderizables usando Mermaid.
 
-Autor: **MARIANA HUMPIRI Y DAISI FLORES]**
+Autor: **MARIANA HUMPIRI Y DAISI FLORES**
 Fecha: **10-06-25**
 
 ---
@@ -15,7 +15,6 @@ Fecha: **10-06-25**
 
 ### Diagrama Mermaid
 
-```mermaid
 graph TD
   Usuario --> Frontend[Frontend (HTML/CSS/JS)]
   Frontend --> Backend[Backend Node.js y Express]
@@ -23,6 +22,7 @@ graph TD
   GitHub --> CI[GitHub Actions CI/CD]
   CI --> Frontend
   CI --> Backend
+
 
 
 ---
@@ -35,20 +35,18 @@ graph TD
 
 ### Diagrama Mermaid
 
-```mermaid
 graph TD
   Cliente --> Gateway[API Gateway]
-  Gateway --> Catálogo[Servicio Catálogo]
+  Gateway --> Catalogo[Servicio Catálogo]
   Gateway --> Carrito[Servicio Carrito]
   Gateway --> Pagos[Servicio Pagos]
   Gateway --> Usuarios[Servicio Usuarios]
-  Catálogo --> DB1[MongoDB]
+  Catalogo --> DB1[MongoDB]
   Carrito --> DB2[Redis]
   Pagos --> DB3[PostgreSQL]
   Usuarios --> DB4[MySQL]
   Pagos --> Kafka[(Kafka)]
   Carrito --> Kafka
-```
 
 ---
 
