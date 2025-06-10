@@ -17,13 +17,13 @@ Fecha: **10-06-25**
 
 ```mermaid
 graph TD
-  Usuario --> Frontend[Frontend (HTML/CSS/JS) - GitHub Pages/Netlify]
-  Frontend --> Backend[Backend (Node.js + Express - Render/Vercel)]
-  Backend --> DB[Base de Datos (MongoDB Atlas o Firebase)]
-  GitHub --> CI[GitHub Actions - CI/CD]
+  Usuario --> Frontend[Frontend (HTML/CSS/JS)]
+  Frontend --> Backend[Backend Node.js y Express]
+  Backend --> DB[Base de Datos en la Nube]
+  GitHub --> CI[GitHub Actions CI/CD]
   CI --> Frontend
   CI --> Backend
-```
+
 
 ---
 
